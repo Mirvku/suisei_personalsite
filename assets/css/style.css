@@ -67,12 +67,12 @@ main {
 }
 
 .home {
-    padding: 1rem 1rem;
+    padding: 6rem 1rem;
     display: flex;
     flex-wrap: wrap;
     /* background-color: red; */
     width: 100%;
-    margin: 8rem auto;
+    margin: 8rem auto 5px;
     justify-content: center;
     align-items: center;
 }
@@ -81,6 +81,17 @@ main {
     line-height: 3rem;
     margin-bottom: 2.5rem;
     align-self: center;
+    color: #0E2431;
+}
+
+.social-media .social-icon i{
+    margin-top: 1rem;
+    color: #4070F4;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.social-media .social-icon i:hover{
     color: #0E2431;
 }
 
@@ -105,10 +116,9 @@ span {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
     width: 90%;
-    padding-top: 2rem;
-    margin: auto;
+    padding-top: 5rem;
+    margin: 2rem auto;
     /* background-color: blue; */
 }
 
@@ -144,11 +154,10 @@ span {
 
 /* Albums */
 .albums {
-    padding-top: 3rem;
+    padding-top: 8rem;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
     width: 90%;
     margin: auto;
     /* background-color: blue; */
@@ -221,6 +230,11 @@ footer h3{
         margin-top: 4.5rem;
         padding: 1rem 1rem;
     }   
+
+    .kiri {
+        margin-top: 6rem;
+        margin-bottom: 8rem;
+    }
 
     .about {
         width: 100%;
