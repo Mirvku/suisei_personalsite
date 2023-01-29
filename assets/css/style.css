@@ -72,7 +72,7 @@ main {
     flex-wrap: wrap;
     /* background-color: red; */
     width: 100%;
-    margin: 5rem auto;
+    margin: 8rem auto;
     justify-content: center;
     align-items: center;
 }
