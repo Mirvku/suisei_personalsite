@@ -239,6 +239,10 @@ footer h3{
     .about-suisei {
         width: 100%;
     }
+
+    .about-suisei h2{
+        text-align: center;
+    }
 }
 
 
@@ -251,9 +255,6 @@ footer h3{
         padding: .50rem;
     }
 
-    .about-suisei h2{
-        text-align: center;
-    }
 
     .about-img img {
         margin-right: 2rem;
