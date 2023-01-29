@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+/* 
+
+WARNA
+main-color: #4070F4
+second-color: #0E2431
+
+big-font-size: 2rem
+h2           : 1.25 rem
+normal       : 0.94 rem
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #0E2431;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 1rem;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 4px 4px #ddd;
+}
+
+nav {
+    height: 4rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 .90rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0E2431;
+}
+
+nav .logo {
+    color: #4070F4;
+    font-size: 1.5rem;
+}
+
+
+
+/* Home */
+
+main {
+    height: 100vh;
+}
+
+.home {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.kiri {
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+    align-self: center;
+    color: #0E2431;
+}
+
+.kiri h1{
+    font-size: 2.5rem;
+}
+
+span { 
+    color: #4070F4;
+}
+
+.kanan {
+    width: 295px;
+}
+
+.kanan img {
+    height: 295px;
+}
+
+/* About */
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 90%;
+    margin: 4.5rem auto;
+    /* background-color: blue; */
+}
+
+.about-title{
+    color: #4070F4;
+    border-bottom: 3px solid #4070F4;
+}
+
+.about-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+.about-img img {
+    height: 295px;
+    margin-bottom: 1.2rem;
+    margin-right: 4rem;
+}
+
+.about-suisei {
+    width: 65%;
+    text-align: initial;
+    justify-self:center;
+}
+
+.about-suisei h2 {
+    color: #4070F4  ;
+    margin-bottom: .95rem;
+    font-size: 1.5rem;
+}
+
+/* Albums */
+.albums {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 90%;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+.albums-list{
+    width: 70%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.albums-card{
+    width: 250px;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+    border-radius: 15px;
+    padding: .95em;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+
+    text-align: center;
+}
+
+.albums-photo{
+    height: 210px;
+    border-radius: 12px;
+}
+
+.albums-title{
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+footer {
+    height: 15%;
+    background-color: #4070F4;
+    margin-top: 2rem;
+    padding: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer h3{
+    color: #fff;
+}
+
+.footer-social i{
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.heart{
+    color: red;
+    font-size: 1.3rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .home {
+        margin-top: 4.5rem;
+        padding: 1rem 1rem;
+    }   
+
+    .about {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .about-container{
+        padding: 1.5rem;
+    }
+
+    .about-suisei {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 360px) {
+    nav  {
+        padding: 5px;
+    }
+
+    nav li{
+        padding: .50rem;
+    }
+
+    .about-suisei h2{
+        text-align: center;
+    }
+
+    .about-img img {
+        margin-right: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 969px) {
+    nav {
+        height: 4rem;
+    }
+    .home {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
