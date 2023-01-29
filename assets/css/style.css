@@ -28,7 +28,7 @@ header {
 }
 
 nav {
-    height: 3rem;
+    height: 4rem;
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -67,12 +67,14 @@ main {
 }
 
 .home {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
     flex-wrap: wrap;
     /* background-color: red; */
-    width: 90%;
+    width: 100%;
     margin: 5rem auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .kiri {
@@ -260,7 +262,6 @@ footer h3{
         height: 4rem;
     }
     .home {
-        align-items: center;
         justify-content: space-evenly;
     }
 }
